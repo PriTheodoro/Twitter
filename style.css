@@ -1,14 +1,50 @@
-.body {
+body {
     margin: 0;
     padding: 0;
-}
-
-.talks p{
+    background-color: lightgoldenrodyellow;
     display: flex;
     flex-direction: column;
-    font-family: fantasy;
-    background-color: lightskyblue;
-    color: black;
+    justify-content: center;
+}
+
+h1 {
+  text-align: center;     
+        
+}
+
+form{
+    text-align: center;
+}
+
+form p{
+    margin-left: 100px;
+}
+
+textarea {
+    overflow-y: hidden;
+    resize: none;
+    border-radius: 5px;
+}
+button{
+    text-align: center;
+    margin: 5px 600px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+div{
+    text-align: center;
+}
+
+
+.talks {
+
+ }
+ .talks p{
+    font-family: 'fantasy';
+    color: darkblue;
     font-size: 15px;
-    
+    background-color: lightblue; 
+    margin: 5px 600px; 
+    word-wrap: break-word;
+    white-space: pre-wrap; 
 }
