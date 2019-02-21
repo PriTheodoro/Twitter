@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-.twittes{
+.twittes p{
     display: flex;
     flex-direction: column;
-    background-color: lightskyblue;
     font-family: fantasy;
+    background-color: lightskyblue;
     color: black;
     font-size: 15px;
     
